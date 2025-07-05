@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "Unison",
+    "description": "a variable website template"
+  },
+  "auth": {
+    "title": "需要密码",
+    "tips": "管理员开启了密码验证，请在下方填入访问码",
+    "input": "在此处填写访问码",
+    "confirm": "确认",
+    "later": "稍后再说",
+    "email": "电子邮件",
+    "OTP": "验证码",
+    "sendOTP": "发送验证码",
+    "login": "登录",
+    "loginSuccess": "登录成功，跳转至主界面。",
+    "emailEmpty": "邮箱地址不能为空",
+    "emailFormatError": "邮箱地址格式错误",
+    "OTPError": "验证码错误",
+    "resendOTP": "{{count}} 秒后重发",
+    "moreAuth": "更多登录方式"
+  },
+  "settings": {
+    "groups": {
+      "translation": "翻译设置",
+      "display": "显示设置",
+      "appearance": "外观设置",
+      "notifications": "通知设置",
+      "data": "数据设置"
+    },
+    "translation": {
+      "auto_translate": {
+        "title": "自动翻译",
+        "description": "启用后，页面内容将自动翻译为您选择的语言"
+      },
+      "target_language": {
+        "title": "目标语言",
+        "description": "选择您希望翻译成的语言"
+      },
+      "source_language": {
+        "title": "源语言",
+        "description": "选择要翻译的原始语言"
+      },
+      "translation_service": {
+        "title": "翻译服务",
+        "description": "选择使用的翻译服务提供商"
+      },
+      "api_key": {
+        "title": "API 密钥",
+        "description": "翻译服务的API密钥（如果需要）",
+        "placeholder": "请输入API密钥"
+      }
+    },
+    "display": {
+      "show_original": {
+        "title": "显示原文",
+        "description": "翻译时同时显示原始文本"
+      },
+      "translation_delay": {
+        "title": "翻译延迟",
+        "description": "自动翻译的延迟时间（毫秒）"
+      },
+      "font_size": {
+        "title": "字体大小",
+        "description": "翻译文本的字体大小"
+      }
+    },
+    "appearance": {
+      "theme": {
+        "title": "主题",
+        "description": "选择应用的主题模式"
+      }
+    },
+    "notifications": {
+      "notifications": {
+        "title": "通知提醒",
+        "description": "启用翻译完成的通知提醒"
+      },
+      "sound_enabled": {
+        "title": "声音提醒",
+        "description": "翻译完成时播放提示音"
+      }
+    },
+    "data": {
+      "auto_save": {
+        "title": "自动保存",
+        "description": "自动保存翻译历史记录"
+      },
+      "history_limit": {
+        "title": "历史记录限制",
+        "description": "保存的翻译历史记录数量上限"
+      },
+      "export_format": {
+        "title": "导出格式",
+        "description": "翻译历史记录的导出格式"
+      }
+    },
+    "languages": {
+      "auto": "自动检测",
+      "zh-CN": "简体中文",
+      "en-US": "英语",
+      "ja-JP": "日语",
+      "ko-KR": "韩语",
+      "fr-FR": "法语",
+      "de-DE": "德语",
+      "es-ES": "西班牙语",
+      "ru-RU": "俄语"
+    },
+    "services": {
+      "google": "Google 翻译",
+      "baidu": "百度翻译",
+      "youdao": "有道翻译",
+      "openai": "OpenAI GPT"
+    },
+    "sizes": {
+      "small": "小",
+      "medium": "中",
+      "large": "大"
+    },
+    "themes": {
+      "light": "浅色主题",
+      "dark": "深色主题",
+      "auto": "跟随系统"
+    },
+    "formats": {
+      "json": "JSON",
+      "csv": "CSV",
+      "txt": "纯文本"
+    }
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "app": {
+    "name": "Unison",
+    "description": "a variable website template"
+  },
+  "auth": {
+    "title": "Need Access Code",
+    "tips": "Please enter access code below",
+    "input": "access code",
+    "confirm": "Confirm",
+    "later": "Later",
+    "email": "Email",
+    "OTP": "Verification Code",
+    "sendOTP": "Send verification code",
+    "login": "Login",
+    "loginSuccess": "Login successful, redirect to the main interface.",
+    "emailEmpty": "Email address cannot be empty",
+    "emailFormatError": "Email address format error",
+    "OTPError": "Verification code error",
+    "resendOTP": "Resend in {{count}}seconds",
+    "moreAuth": "More login methods"
+  },
+  "settings": {
+    "groups": {
+      "translation": "Translation Settings",
+      "display": "Display Settings",
+      "appearance": "Appearance Settings",
+      "notifications": "Notification Settings",
+      "data": "Data Settings"
+    },
+    "translation": {
+      "auto_translate": {
+        "title": "Auto Translate",
+        "description": "Enable to automatically translate page content to your selected language"
+      },
+      "target_language": {
+        "title": "Target Language",
+        "description": "Select the language you want to translate to"
+      },
+      "source_language": {
+        "title": "Source Language",
+        "description": "Select the original language to translate from"
+      },
+      "translation_service": {
+        "title": "Translation Service",
+        "description": "Select the translation service provider"
+      },
+      "api_key": {
+        "title": "API Key",
+        "description": "API key for translation service (if required)",
+        "placeholder": "Enter API key"
+      }
+    },
+    "display": {
+      "show_original": {
+        "title": "Show Original",
+        "description": "Show original text along with translation"
+      },
+      "translation_delay": {
+        "title": "Translation Delay",
+        "description": "Delay time for auto translation (milliseconds)"
+      },
+      "font_size": {
+        "title": "Font Size",
+        "description": "Font size for translated text"
+      }
+    },
+    "appearance": {
+      "theme": {
+        "title": "Theme",
+        "description": "Select the application theme mode"
+      }
+    },
+    "notifications": {
+      "notifications": {
+        "title": "Notifications",
+        "description": "Enable notification reminders when translation is complete"
+      },
+      "sound_enabled": {
+        "title": "Sound Alerts",
+        "description": "Play sound when translation is complete"
+      }
+    },
+    "data": {
+      "auto_save": {
+        "title": "Auto Save",
+        "description": "Automatically save translation history"
+      },
+      "history_limit": {
+        "title": "History Limit",
+        "description": "Maximum number of translation history records to save"
+      },
+      "export_format": {
+        "title": "Export Format",
+        "description": "Export format for translation history"
+      }
+    },
+    "languages": {
+      "auto": "Auto Detect",
+      "zh-CN": "Simplified Chinese",
+      "en-US": "English",
+      "ja-JP": "Japanese",
+      "ko-KR": "Korean",
+      "fr-FR": "French",
+      "de-DE": "German",
+      "es-ES": "Spanish",
+      "ru-RU": "Russian"
+    },
+    "services": {
+      "google": "Google Translate",
+      "baidu": "Baidu Translate",
+      "youdao": "Youdao Translate",
+      "openai": "OpenAI GPT"
+    },
+    "sizes": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "themes": {
+      "light": "Light Theme",
+      "dark": "Dark Theme",
+      "auto": "Follow System"
+    },
+    "formats": {
+      "json": "JSON",
+      "csv": "CSV",
+      "txt": "Plain Text"
+    }
+  }
+}
